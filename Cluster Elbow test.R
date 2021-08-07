@@ -1,7 +1,7 @@
 library(readxl) 
 library(dplyr)
 
-seg.df <- data.frame(read_excel("/Users/komori/Downloads/MG403 Individual Take-Home Assignment Documents 2021-20210504/Capsule Hotel Conjoint Data 2020-21.xlsx", 
+seg.df <- data.frame(read_excel("CHANGE THE FILE PATH", 
                                  sheet = "Cluster"))
 
 str(seg.df)
